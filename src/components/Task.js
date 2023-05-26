@@ -1,6 +1,11 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
-export default function Login(){
+export default function Task(){
+const history = useNavigate();
+const dashboard = () => {
+    history('dashboard');
+};
 return (
     <div className="container">
         <form className="row g-3">
@@ -37,7 +42,7 @@ return (
             <input type="text" className="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"/>
             </div>
             <div className="mb-3">
-                <button className="form-control btn btn-primary" id="exampleFormControlInput1"> PUBLISH </button>
+                <button className="form-control btn btn-primary" id="exampleFormControlInput1" onClick={dashboard}> PUBLISH </button>
             </div>
         </form>
     </div>
