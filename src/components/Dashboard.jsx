@@ -7,31 +7,14 @@ const Dashboard = () => {
     <div className="dashboard">
     <nav className="navbar navbar-expand-lg navbar-dark bg-danger h-100">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">Navbar</a>
+              <a className="navbar-brand text-bold fw-bold" href="#">Dashboard</a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link disabled">Disabled</a>
+                    <a className="nav-link active" aria-current="page" href="#">Profile</a>
                   </li>
                 </ul>
                 <form className="d-flex" role="search">
@@ -43,9 +26,10 @@ const Dashboard = () => {
           </nav>
     </div>
     <div className="newsfeed">
-      <div className="A bg-light"></div>
+      <div className="A bg-light">
+      </div>
       <div className="B overflow-scroll bg-light">
-        <div className="container">
+        <div className="container-flex">
         <table className="table">
             <tbody>
               <tr>
@@ -77,7 +61,8 @@ const Dashboard = () => {
               <td>5 days left</td>
               </tr>
             </tbody>
-          </table><br></br>
+          </table>
+          <hr/>
           <table className="table">
             <tbody>
               <tr>
@@ -109,167 +94,8 @@ const Dashboard = () => {
               <td>5 days left</td>
               </tr>
             </tbody>
-          </table><br></br>
-          <table className="table">
-            <tbody>
-              <tr>
-              <th scope="row">JOB TITLE</th>
-              <td>Laravel Developer</td>
-              </tr>
-              <tr>
-              <th scope="row">COMPANY</th>
-              <td>Pioneer Softech</td>
-              </tr>
-              <tr>
-              <th scope="row">POSITION</th>
-              <td>Mid Level</td>
-              </tr>
-              <tr>
-              <th scope="row">NUMBER</th>
-              <td>15</td>
-              </tr>
-              <tr>
-              <th scope="row">ADDRESS</th>
-              <td>Bagbazar, Kathmandu</td>
-              </tr>
-              <tr>
-              <th scope="row">CONTACT</th>
-              <td>rajendra@gmail.com</td>
-              </tr>
-              <tr>
-              <th scope="row">TIME-PERIOD</th>
-              <td>5 days left</td>
-              </tr>
-            </tbody>
-          </table><br></br>
-          <table className="table">
-            <tbody>
-              <tr>
-              <th scope="row">JOB TITLE</th>
-              <td>Laravel Developer</td>
-              </tr>
-              <tr>
-              <th scope="row">COMPANY</th>
-              <td>Pioneer Softech</td>
-              </tr>
-              <tr>
-              <th scope="row">POSITION</th>
-              <td>Mid Level</td>
-              </tr>
-              <tr>
-              <th scope="row">NUMBER</th>
-              <td>20</td>
-              </tr>
-              <tr>
-              <th scope="row">ADDRESS</th>
-              <td>Bagbazar, Kathmandu</td>
-              </tr>
-              <tr>
-              <th scope="row">CONTACT</th>
-              <td>rajendra@gmail.com</td>
-              </tr>
-              <tr>
-              <th scope="row">TIME-PERIOD</th>
-              <td>5 days left</td>
-              </tr>
-            </tbody>
-          </table><br></br>
-          <table className="table">
-            <tbody>
-              <tr>
-              <th scope="row">JOB TITLE</th>
-              <td>Laravel Developer</td>
-              </tr>
-              <tr>
-              <th scope="row">COMPANY</th>
-              <td>Pioneer Softech</td>
-              </tr>
-              <tr>
-              <th scope="row">POSITION</th>
-              <td>Mid Level</td>
-              </tr>
-              <tr>
-              <th scope="row">NUMBER</th>
-              <td>25</td>
-              </tr>
-              <tr>
-              <th scope="row">ADDRESS</th>
-              <td>Bagbazar, Kathmandu</td>
-              </tr>
-              <tr>
-              <th scope="row">CONTACT</th>
-              <td>rajendra@gmail.com</td>
-              </tr>
-              <tr>
-              <th scope="row">TIME-PERIOD</th>
-              <td>5 days left</td>
-              </tr>
-            </tbody>
-          </table><br></br>
-          <table className="table">
-            <tbody>
-              <tr>
-              <th scope="row">JOB TITLE</th>
-              <td>Laravel Developer</td>
-              </tr>
-              <tr>
-              <th scope="row">COMPANY</th>
-              <td>Pioneer Softech</td>
-              </tr>
-              <tr>
-              <th scope="row">POSITION</th>
-              <td>Mid Level</td>
-              </tr>
-              <tr>
-              <th scope="row">NUMBER</th>
-              <td>30</td>
-              </tr>
-              <tr>
-              <th scope="row">ADDRESS</th>
-              <td>Bagbazar, Kathmandu</td>
-              </tr>
-              <tr>
-              <th scope="row">CONTACT</th>
-              <td>rajendra@gmail.com</td>
-              </tr>
-              <tr>
-              <th scope="row">TIME-PERIOD</th>
-              <td>5 days left</td>
-              </tr>
-            </tbody>
-          </table><br></br>
-          <table className="table">
-            <tbody>
-              <tr>
-              <th scope="row">JOB TITLE</th>
-              <td>Laravel Developer</td>
-              </tr>
-              <tr>
-              <th scope="row">COMPANY</th>
-              <td>Pioneer Softech</td>
-              </tr>
-              <tr>
-              <th scope="row">POSITION</th>
-              <td>Mid Level</td>
-              </tr>
-              <tr>
-              <th scope="row">NUMBER</th>
-              <td>35</td>
-              </tr>
-              <tr>
-              <th scope="row">ADDRESS</th>
-              <td>Bagbazar, Kathmandu</td>
-              </tr>
-              <tr>
-              <th scope="row">CONTACT</th>
-              <td>rajendra@gmail.com</td>
-              </tr>
-              <tr>
-              <th scope="row">TIME-PERIOD</th>
-              <td>5 days left</td>
-              </tr>
-            </tbody>
-          </table><br></br>
+          </table>
+          <hr/>
           <nav aria-label="...">
           <ul className="pagination">
           <li className="page-item disabled">
