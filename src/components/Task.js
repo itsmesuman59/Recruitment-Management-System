@@ -17,7 +17,7 @@ return (
             <span className="input-group-text" id="basic-addon1">COMPANY</span>
             <input type="text" className="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"/>
             </div>
-            <div className="input-group mb-3">
+            {/* <div className="input-group mb-3">
             <span className="input-group-text" id="basic-addon1">POSITION</span>
             <input type="text" className="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"/>
             </div>
@@ -40,7 +40,7 @@ return (
             <div className="input-group mb-3">
             <span className="input-group-text" id="basic-addon1">TIME-PERIOD</span>
             <input type="text" className="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1"/>
-            </div>
+            </div> */}
             <div className="mb-3">
                 <button className="form-control btn btn-primary" id="exampleFormControlInput1" onClick={dashboard}> PUBLISH </button>
             </div>
